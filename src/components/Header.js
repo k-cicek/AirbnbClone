@@ -2,7 +2,6 @@ import React from "react";
 import "./Header.css";
 import SearchIcon from "@material-ui/icons/Search";
 import LanguageIcon from "@material-ui/icons/Language";
-import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import { Avatar } from "@material-ui/core";
 
 function Header() {
@@ -14,13 +13,12 @@ function Header() {
         alt=""
       />
       <div className="header__center">
-        <input type="text" />
+        <input type="text" value="Start your search"/>
         <SearchIcon />
       </div>
       <div className="header__right">
         <p>Become a host</p>
         <LanguageIcon />
-        <ExpandMoreIcon />
         <Avatar />
       </div>
     </div>

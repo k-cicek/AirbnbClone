@@ -7,6 +7,7 @@ background-color: white;
 z-index: 100;
 width: 100%;
 top: 0;
+height: 80px;
 }
 
 .header__icon {
@@ -22,7 +23,7 @@ top: 0;
  align-items: center;
  max-width: fit-content;
  padding: 10px;
- height: 30px;
+ height: 25px;
  border: 1px solid lightgray;
  border-radius: 999px;
 }
@@ -30,8 +31,18 @@ top: 0;
 .header__center > input {
  border: none;
  padding: 10px;
-/*  width: 250px;
- */ outline-width: 0;
+ width: 250px;
+ outline-width: 0;
+ font-size: 14px;
+}
+
+.header__center > .MuiSvgIcon-root {
+ border: 1px solid ;
+ border-radius: 50%;
+ background-color: #ff7779;
+ color: white;
+ padding: 4px;
+ margin-right: -3px;
 }
 
 .header__right {
@@ -44,6 +55,13 @@ top: 0;
 
 .header__right p {
  white-space: nowrap;
- margin-right: 20px;
+ margin-right: 8px;
+ font-size: 14px;
+}
+
+.header__right p:hover {
+ border-radius: 999px;
+ background-color: #f7f7f7;
+ padding: 10px 10px;
 
 }
