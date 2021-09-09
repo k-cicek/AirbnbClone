@@ -59,9 +59,3 @@ height: 80px;
  font-size: 14px;
 }
 
-.header__right p:hover {
- border-radius: 999px;
- background-color: #f7f7f7;
- padding: 10px 10px;
-
-}
