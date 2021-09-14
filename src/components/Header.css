@@ -30,8 +30,7 @@ height: 80px;
 
 .header__center > input {
  border: none;
- padding: 10px;
- width: 250px;
+ width: 200px;
  outline-width: 0;
  font-size: 14px;
 }
@@ -57,5 +56,20 @@ height: 80px;
  white-space: nowrap;
  margin-right: 8px;
  font-size: 14px;
+}
+
+@media screen and (max-width: 530px) {
+ .header__icon {
+  margin-left: 5px;
+ }
+
+ .header__right > p {
+  display: none;
+ }
+
+ .header__right > .MuiSvgIcon-root {
+  padding-left: 30px;
+ }
+
 }
 

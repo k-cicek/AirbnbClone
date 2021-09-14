@@ -14,4 +14,6 @@ function Card({ src, title, description, price}) {
  )
 }
 
+
+
 export default Card

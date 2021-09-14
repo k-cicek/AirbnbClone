@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 import Banner from "./Banner";
 import Card from "./Card";
+import Hero from "./Hero";
 
 function Home() {
   return (
@@ -9,7 +10,6 @@ function Home() {
       <Banner />
       <h1>Live anywhere</h1>
       <div className="home__section">
-        
         <Card
           src="https://a0.muscache.com/im/pictures/2f13349d-879d-43c6-83e3-8e5679291d53.jpg?im_w=480"
           title="Outdoor getaways"
@@ -19,14 +19,19 @@ function Home() {
           title="Unique stays"
         />
         <Card
+          src="https://a0.muscache.com/im/pictures/fbe849a4-841a-41b3-b770-419402a6316f.jpg?im_w=480"
+          title="Pets welcome"
+        />
+        <Card
           src="https://a0.muscache.com/im/pictures/7d82ca14-56e5-4465-8218-dcfa7d69b6ac.jpg?im_w=480"
           title="Entire homes"
         />
       </div>
-      <h1>Discover things to do</h1>
+      <Hero />
 
+      <h1>Discover things to do</h1>
       <div className="home__section">
-      <Card
+        <Card
           src="https://a0.muscache.com/im/pictures/56dc3b0e-10dc-4410-bacd-fb6293b19264.jpg?im_w=480"
           title="Experiences"
           description="Find unforettable activities near you."

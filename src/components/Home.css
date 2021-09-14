@@ -2,3 +2,20 @@
  display: flex;
  padding: 30px;
 }
+
+.home > h1 {
+ padding-top: 30px;
+ padding-left: 40px;
+}
+
+@media screen and (max-width: 700px) {
+ .home__section {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  padding-right: 40px;
+  
+}
+
+}
+

@@ -1,0 +1,40 @@
+.hero {
+  background: url("https://a0.muscache.com/im/pictures/5b4dc94a-0b4c-4c27-b50f-9c5a5b93c775.jpg?im_w=1200")
+    center center;
+  margin: 60px auto;
+  width: 90%;
+  height: 350px;
+  border-radius: 20px;
+  position: relative;
+  color: #fff;
+  background-size: cover;
+}
+
+.hero__wrapper {
+  width: 40%;
+  padding-top: 120px;
+  padding-left: 50px;
+}
+
+.hero__wrapper > h1 {
+ font-size: 30px;
+ padding-bottom: 15px;
+}
+
+.hero__wrapper > h2 {
+ font-size: 16px;
+ font-weight: 300;
+}
+
+.hero__wrapper > .hero-btn {
+ background-color: white;
+ color: #ff7779;
+ text-transform: inherit;
+ margin-top: 20px;
+ font-weight: 600;
+}
+
+.hero__wrapper > button:hover {
+ background-color: #ff7779;
+ color: white;
+}
