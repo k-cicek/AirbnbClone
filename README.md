@@ -19,4 +19,4 @@ A Airbnb clone is ReactJs project. I used Firebase to publish it.
 
 This website is deployed on Firebase. You can view the site here [Click here](https://airbnbclone-ce1d2.web.app)
 
-<img width="795" alt="Screen Shot 2021-09-15 at 14 11 13" src="https://user-images.githubusercontent.com/79858870/133427420-b89ff276-289a-4847-8e00-06d8b420d42e.png">
+<img width="400" alt="Screen Shot 2021-09-15 at 14 11 13" src="https://user-images.githubusercontent.com/79858870/133427420-b89ff276-289a-4847-8e00-06d8b420d42e.png">
