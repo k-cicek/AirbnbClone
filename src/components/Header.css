@@ -49,7 +49,7 @@ height: 80px;
  align-items: center;
  justify-content: space-between;
  width: 15vw;
- margin-right: 80px;
+ margin-right: 50px;
 }
 
 .header__right p {
@@ -58,7 +58,7 @@ height: 80px;
  font-size: 14px;
 }
 
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 540px) {
  .header__icon {
   margin-left: 5px;
  }
@@ -68,7 +68,7 @@ height: 80px;
  }
 
  .header__right > .MuiSvgIcon-root {
-  padding-left: 30px;
+  padding-left: 25px;
  }
 
 }
